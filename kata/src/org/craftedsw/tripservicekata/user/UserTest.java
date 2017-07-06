@@ -1,10 +1,9 @@
-package test.java.org.craftedsw.tripservicekata.user;
+package org.craftedsw.tripservicekata.user;
 
+import org.craftedsw.tripservicekata.UserBuilder;
+import org.craftedsw.tripservicekata.user.User;
 import org.junit.Assert;
 import org.junit.Test;
-
-import main.java.org.craftedsw.tripservicekata.user.User;
-import main.java.org.craftedsw.tripservicekata.UserBuilder;
 
 public class UserTest {
 	private static final User BOB = new User();

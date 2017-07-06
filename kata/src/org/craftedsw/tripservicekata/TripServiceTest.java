@@ -1,16 +1,15 @@
-package test.java.org.craftedsw.tripservicekata.trip;
-
-import main.java.org.craftedsw.tripservicekata.UserBuilder;
-import main.java.org.craftedsw.tripservicekata.exception.UserNotLoggedInException;
-import main.java.org.craftedsw.tripservicekata.trip.Trip;
-import main.java.org.craftedsw.tripservicekata.trip.TripDAO;
-import main.java.org.craftedsw.tripservicekata.trip.TripService;
-import main.java.org.craftedsw.tripservicekata.user.User;
+package org.craftedsw.tripservicekata;
 
 import java.util.List;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.craftedsw.tripservicekata.UserBuilder;
+import org.craftedsw.tripservicekata.exception.UserNotLoggedInException;
+import org.craftedsw.tripservicekata.trip.Trip;
+import org.craftedsw.tripservicekata.trip.TripDAO;
+import org.craftedsw.tripservicekata.trip.TripService;
+import org.craftedsw.tripservicekata.user.User;
 import org.hamcrest.Matcher;
 import org.junit.Assert;
 import org.mockito.InjectMocks;

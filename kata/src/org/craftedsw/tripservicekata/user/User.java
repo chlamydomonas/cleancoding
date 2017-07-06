@@ -1,9 +1,9 @@
-package main.java.org.craftedsw.tripservicekata.user;
+package org.craftedsw.tripservicekata.user;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.org.craftedsw.tripservicekata.trip.Trip;
+import org.craftedsw.tripservicekata.trip.Trip;
 
 public class User {
 

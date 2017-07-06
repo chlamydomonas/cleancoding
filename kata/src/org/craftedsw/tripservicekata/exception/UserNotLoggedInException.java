@@ -1,4 +1,4 @@
-package main.java.org.craftedsw.tripservicekata.exception;
+package org.craftedsw.tripservicekata.exception;
 
 public class UserNotLoggedInException extends RuntimeException {
 

@@ -1,12 +1,11 @@
-package main.java.org.craftedsw.tripservicekata.trip;
+package org.craftedsw.tripservicekata.trip;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import org.craftedsw.tripservicekata.exception.UserNotLoggedInException;
+import org.craftedsw.tripservicekata.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import main.java.org.craftedsw.tripservicekata.exception.UserNotLoggedInException;
-import main.java.org.craftedsw.tripservicekata.user.User;
 
 public class TripService {
 
@@ -31,6 +30,6 @@ public class TripService {
 	}
 	
 	protected List<Trip> tripsBy(User user){
-		return tripDAO.tripsBy(user);
+		return tripDAO.tripBy(user);
 	}
 }
