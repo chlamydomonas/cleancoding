@@ -62,7 +62,8 @@ public class TripServiceTest {
 		User friend = UserBuilder.aUser()
 				.friendsWith(ANOTHER_USER, REGISTERED_USER)
 				.withTrips(TO_BRAZIL, TO_LONDON)
-				.build();				
+				.build();
+		given(tripDAO.tripBy(friend)).willReturn(friend.trips());
 
 		List<Trip> friendTrips = tripService.getFriendTrips(friend, REGISTERED_USER);
 		
